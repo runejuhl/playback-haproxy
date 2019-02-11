@@ -1,0 +1,25 @@
+* playback-haproxy
+
+Plays back haproxy log files at arbitrary speed.
+
+** Usage
+
+#+BEGIN_EXAMPLE
+  $ ./playback-haproxy -v
+  Play back haproxy log files in realtime using timing information from logs
+
+  Usage:
+    ./playback-haproxy <input-file> [speed]
+
+  Examples:
+    ./playback-haproxy /var/log/haproxy.log
+    ./playback-haproxy /var/log/haproxy.log 4.2
+
+  https://gitlab.com/runejuhl/playback-haproxy
+  https://github.com/runejuhl/playback-haproxy
+
+  playback-haproxy v0.1.0 copyright (C) 2019 Rune Juhl Jacobsen
+  This program comes with ABSOLUTELY NO WARRANTY.
+  This is free software, and you are welcome to redistribute it
+  under certain conditions; see source repository for details.
+#+END_EXAMPLE
